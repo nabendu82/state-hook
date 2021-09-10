@@ -1,10 +1,20 @@
+import React from 'react';
 import './App.css';
-import HookCounter4 from './components/HookCounter4';
+import FocusInput from './components/FocusInput';
+// import GrandParent from './components/GrandParent';
+
+// export const UserContext = React.createContext();
+// export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <HookCounter4 />
+      {/* <UserContext.Provider value={'Nabendu'}>
+        <ChannelContext.Provider value={'TheWebDev'}>
+          <GrandParent />
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
+      <FocusInput />
     </div>
   );
 }

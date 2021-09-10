@@ -9,7 +9,7 @@ class ClassCounter extends Component {
     }
 
     incrementCount = () => {
-        this.setState({
+        this.setState({ 
             count: this.state.count + 1
         })
     }
@@ -17,7 +17,7 @@ class ClassCounter extends Component {
     render() {
         return (
             <>
-                <button onClick={this.incrementCount}>Count - {this.state.count}</button>   
+                <button onClick={this.incrementCount}>Count - {this.state.count}</button>
             </>
         )
     }

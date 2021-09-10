@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const HookCounter4 = () => {
-    const [items, setItems] = useState([])
+    const [items, setItems] = useState([]);
 
     const addItem = () => {
         setItems([...items, { id: items.length, value: Math.random() * 10 }])
